@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                           // Целевая версия JavaScript
+    "module": "esnext",                        // Модульная система ESNext
+    "moduleResolution": "node",                 //Разрешение модулей Node
+    "outDir": "./dist",                        // Директория для скомпилированного кода
+    "strict": true,                            // Включение строгой типизации
+    "resolveJsonModule": true,                 // Разрешение импорта JSON как модулей
+    "esModuleInterop": true,                   // Совместимость с CommonJS
+    "skipLibCheck": true,                      // Пропустить проверку типов библиотек
+    "forceConsistentCasingInFileNames": true   // Обеспечение согласованного написания имен файлов
+  },
+  "include": ["src/**/*"],                     // Включение всех файлов в директории src
+  "exclude": ["node_modules", "dist"]         // Исключение папок node_modules и dist
+}
